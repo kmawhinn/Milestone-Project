@@ -1,0 +1,172 @@
+/* BASE STYLES */
+body{
+    font-family: "Open Sans Condensed";
+    color: #000000;
+    font-size: 24px;
+}
+h1,
+h2,
+h3{
+    font-family: "Lora";
+}
+h1{
+    font-size: 48px;
+    color: #7a4343;
+}
+h2{
+    color: #000000;
+    font-size: 60px;
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+}
+h4{
+    font-weight: bold;
+    text-align: center;
+}
+
+/* GRID */
+
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width{
+    width: 600px;
+    overflow: auto;
+    float: left;
+}
+.third-width{
+    width: 400px;
+    overflow: auto;
+    float: left;
+}
+
+/* HEADER */
+
+#header{
+    background: url("../img/img-hero-resized.jpg") no-repeat white;
+    background-size: cover;
+    height: 800px;
+}
+nav{
+    color: black;
+    float: left;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    font-size: 26px;
+    padding: 30px;
+}
+nav ul li a{
+    /* style nav section */
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* Hover properties? */
+}
+
+h1,
+h2{
+    margin: 50px;
+    float: left;
+    line-height: 80px;
+    clear: both;
+}
+
+/* WORK */
+
+#work{
+    height: auto;
+    background: #efefef;
+    color: #000000;
+    padding: 30px 0 30px 0;
+}
+#work a{
+    color: #000000;
+    text-decoration: none;
+}
+#work h4{
+    color: #000000;
+}
+#work p{
+    color: #000000;
+    font-size: 26px;
+}
+#work span{
+    font-weight: bold;
+}
+#work p, h4{
+    padding: 5px;
+
+}
+#work-section-1{
+    padding: 20 0 20 0px;
+}/* padding not working */
+
+
+/* ABOUT */
+
+#about{
+    height: 650px;
+    background-color: #7a4343;
+}
+#about .half-width{
+    float: left;
+    margin: 0 auto;
+}
+#about span{
+    font-weight: bold;
+}
+#about h3, p{
+    color: #efefef#f;
+    line-height: 40px;
+}
+#about-heading{
+    padding: 30px 0 30px 0;
+}
+
+
+/* CONTACT */
+
+#contact{
+    height: auto;
+    background-color: #454848;
+}
+#contact h3, h4, p, a{
+    color: #efefef;
+}
+#contact-header{
+    padding: 30px 0 0 0;
+}
+#contact ul{
+    text-align: center;
+}
+#contact ul li{
+    display: inline-block;
+    padding: 30px;
+}
+#contact ul li a{
+    text-decoration: none;
+}
+#contact p{
+    font-weight: bold;
+    text-align: center;
+}
+#contact-icon{
+    vertical-align: middle;
+}
+#footer{
+    clear: both;
+}
+#footer p{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    color: #efefefs;
+    line-height: 24px;
+    padding-top: 30px;
+}
